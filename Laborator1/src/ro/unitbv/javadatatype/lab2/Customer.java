@@ -13,12 +13,7 @@ public class Customer {
 		this.age = a ;	
 	}
 	
-	public Customer(String num, String pre, int a, Address add) {
-		this.nume = num;
-		this.prenume = pre; 
-		this.age = a;	
-		this.address = add;
-	}
+	
 	
 	public Customer(String num, String pre, int a, Address add, PaymentMethod t) {
 		this.nume = num;
